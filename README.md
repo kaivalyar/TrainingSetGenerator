@@ -1,11 +1,12 @@
 # TrainingSetGeneratorTool
-Browser Based Tool to Manually Demarcate Regions in Images
+Browser Based Tool to Manually Demarcate Regions in Images.
 
 ## Setup
 Clone the repo and open **Generator.html** in your browser to run on custom images. Head to [this link](http://htmlpreview.github.io/?https://github.com/kaivalyar/TrainingSetGeneratorTool/blob/master/Generator.html) for a (slightly slow) preview of the tool with the default images.
 
 ## Layout
 The page is has 4 main sections:
+
 1. Title
 2. Image: shows the image to demarcate a region for.
 3. Control Buttons: to download region data, clear it, or move to the next image (with or without auto downloading current image data).
