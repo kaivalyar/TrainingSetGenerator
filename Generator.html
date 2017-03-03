@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Training Set Generator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="alert-space" id="alert">
+        
+    </div>
+    <div class="wrapper">
+      <h1>Select Bounding Box Edges / Corner Points</h1>
+      <div class="demo-wrapper box" id="image-container">
+        <div class="heatmap" id="canvas-container">
+          <!--canvas class="heatmap-canvas" width="800" height="300" style="position: absolute; left: 0px; top: 0px;"></canvas-->
+        </div>
+      </div>
+      <div class="box">
+      <button class="fl-l" onclick="javascript: saveListToFile();"> Download </button>
+      <button class="fl-l"onclick="javascript: clearMap();"> Clear </button>
+      <button class="fl-r" onclick="javascript: loadNextImage();"> Next Image </button>
+      <input style="margin-top: 7px; margin-left: 20px;" class="fl-l" type="checkbox" name="AutoDownload" value="AutoDownload" id="check" checked> <span class="fl-l" style="margin-top: 6px;">AutoDownload</span> </input>
+      <p id="list" contenteditable="true"></p>
+      </div>
+    </div>
+    <script src="heatmap.min.js"></script>
+    <script src="gen.js"></script>
+  </body>
+</html>
