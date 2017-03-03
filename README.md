@@ -2,7 +2,7 @@
 Browser Based Tool to Manually Demarcate Regions in Images.
 
 ## Setup
-Clone the repo and open ** Generator.html ** in your browser to run on custom images. Head to [this link](http://htmlpreview.github.io/?https://github.com/kaivalyar/TrainingSetGeneratorTool/blob/master/Generator.html) for a (slightly slow) preview of the tool with the default images.
+Clone the repo and open **Generator.html** in your browser to run on custom images. Head to [this link](http://htmlpreview.github.io/?https://github.com/kaivalyar/TrainingSetGeneratorTool/blob/master/Generator.html) for a (slightly slow) preview of the tool with the default images.
 
 ## Layout
 The page has 5 main sections:
@@ -19,11 +19,11 @@ Open the page, and use the mouse to either:
 * Double click on the corner points of the polygon defining the region to demarcate.
 * Click and drag to fill an entire region to demarcate it.
 
-To download the data, click the ** Download ** button. The file downloaded has the name `dataX.txt`, where `X` is the image index from the image source filename `imageX.png`.
+To download the data, click the **Download** button. The file downloaded has the name `dataX.txt`, where `X` is the image index from the image source filename `imageX.png`.
 
 To clear the durrent data selection, in case of making an error, click the **Clear** button.
 
-To move on to the next image, use the ** Next Image ** button. The data will be saved depending on the state of the ** AutoDownload ** checkbox.
+To move on to the next image, use the **Next Image** button. The data will be saved depending on the state of the **AutoDownload** checkbox.
 
 The colour codes for the Alert Circle in the top right corner, when visible, are:
 * red: mouse drag points being recorded.
